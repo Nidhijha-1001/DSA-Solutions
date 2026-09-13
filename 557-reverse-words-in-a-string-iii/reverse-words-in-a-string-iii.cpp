@@ -17,8 +17,7 @@ public:
             right++;
             left = right;
         }
-        
+
         return ans;
-       
     }
 };
