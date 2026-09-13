@@ -11,12 +11,13 @@ public:
             for(int i = right-1;i>=left;i--){
                 ans+=s[i];
             }
-            if (right < s.size()) {
+            if (right < s.size()) 
                 ans += ' ';
-            }
+            
             right++;
             left = right;
         }
+        
         return ans;
        
     }
