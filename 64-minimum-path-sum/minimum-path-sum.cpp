@@ -3,7 +3,7 @@ public:
      int helper(int i , int j, vector<vector<int>>& dp,int m,int n,vector<vector<int>>& grid){
 
         if(i >= m or j >= n){
-            return 10e7;
+            return 1e9;
         }
 
         if(i == m-1 && j == n-1){
