@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-         int ans = 0;
+        int ans = 0;
         int cnt[26] ={0};
         for(int i = 0; i<s.length(); i++){
             cnt[s[i] - 'a']++;
